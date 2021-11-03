@@ -60,13 +60,19 @@
     width: 400px;
  }
 
-test
+ .id-card{
+   height: 100px;
+   width:100px;
+ }
+.logo-contact{
+  height: 100px;
+   width:100px;
+}
 
 
 
 
-
-
+ <!-- flip tabs
 
 *{
     margin: 0;
@@ -260,3 +266,15 @@ test
       margin: 0 0 2rem 0;
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+  
