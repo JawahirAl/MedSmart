@@ -11,69 +11,67 @@
     <title>MedSmart</title>
   </head>
   <body class="color">
-    <nav class="navbar navbar-expand-lg nav-color">
-        <div class="container-fluid">
-                    <img src="" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                   
-                </a>
-          <a class="navbar-brand rockwell text-color" href="index.html">MedSmart</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-color" aria-current="page" href="index.html">Home</a>
-              </li>
-             
-              <li class="nav-item">
-                <a class="nav-link active text-color" aria-current="page" href="services.html">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-color" aria-current="page" href="staff.html"> Our Staff</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-color" aria-current="page" href="location.html">Location</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-color" aria-current="page" href="contact.html">Contact Us</a>
-              </li>
-           <div>
-            
-            <li class="nav-item dropdown">
-              <a class="btn btn-app" href="apply.html" role="button">
-                <h7 class="text-color">Apply Now!</h7></a>
-            </li>
-          </ul>
-         
-           </div>
-             
-          </div>
-        </div>
-      </nav>
+    <!--    Made by Erik Terwan    -->
+<!--   24th of November 2015   -->
+<!--        MIT License        -->
+<nav role="navigation">
+  <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
 
+  <ul id="menu">
+    <a href="#"><li>Home</li></a>
+    <a href="#"><li>Services</li></a>
+    <a href="#"><li>Our Staff</li></a>
+    <a href="#"><li>Location</li></a>
+    <a href="#"><li>Contact us</li></a>
+    <a href="#"><li>apply now</li></a>
+   
+  </ul>
+</div>
+</nav>
+     
 
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active car-size">
-            <img src="images/placeholder.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item car-size">
-            <img src="images/placeholder.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item car-size">
-            <img src="images/placeholder.png" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active car-size">
+      <img src="images/placeholder.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item car-size">
+      <img src="images/placeholder.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item car-size">
+      <img src="images/placeholder.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
 <br>
 <br><br><br>
 
@@ -199,9 +197,10 @@
 
 
   
+    
     <footer class="text-center text-white" style="background-color: #dfdff3;">
       <!-- Grid container -->
-      <div class="container pt-4">
+      <div class="Layout Container container pt-4">
         <!-- Section: Social media -->
         <section class="mb-4">
           <!-- Facebook -->
@@ -272,9 +271,12 @@
     </footer>
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    
-  </body>
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+</body>
 </html>
