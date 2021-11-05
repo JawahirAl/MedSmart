@@ -67,7 +67,9 @@
   height: 100px;
    width:100px;
 }
-
+#nav {
+  z-index: 9999;
+}
 
 
 
@@ -322,7 +324,7 @@
 
 #menuToggle a:hover
 {
-  color: tomato;
+  color: rgb(0, 204, 255);
 }
 
 
@@ -415,7 +417,7 @@
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  
+  text-align: right;
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
