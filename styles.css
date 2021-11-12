@@ -1,10 +1,10 @@
 .banner{
   background: rgb(49,46,93);
-  background: linear-gradient(90deg, rgba(49,46,93,1) 0%, rgba(50,70,147,1) 18%, rgba(144,163,184,1) 100%);
+  background: linear-gradient(180deg, rgba(49,46,93,1) 0%, rgba(87,93,129,1) 9%, rgba(233,237,248,1) 55%);
   background-attachment: fixed;
-    background-size: cover;
-    height: 400px;
-    width: 1400px;
+  height: 400px;
+  width:100%;
+    
 }
 .color{
     background-color: #e9edf8;
@@ -52,12 +52,12 @@
  .one {
     height: 270px;
     width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
  }
-
- .two {
-    height: 270px;
-    width: 400px;
- }
+  
 
  .id-card{
    height: 100px;
@@ -66,16 +66,15 @@
 .logo-contact{
   height: 100px;
   width:100px;
-}
-#nav {
-  z-index: 9999;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
 .black{
 color: black;
 }
-
-
 
 
 
@@ -326,7 +325,7 @@ color: black;
 
 #menuToggle a:hover
 {
-  color: rgb(0, 204, 255);
+  color: rgb(122, 137, 214);
 }
 
 
