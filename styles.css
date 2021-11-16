@@ -89,9 +89,13 @@ background-image:url(images\placeholder.png)
 }
 
 
+.footer-color{
+  background: rgb(233,237,248);
+background: linear-gradient(90deg, rgba(233,237,248,1) 0%, rgba(118,120,158,1) 52%, rgba(233,237,248,1) 100%);
+}
 
  <!-- flip tabs
-
+**!>
 *{
     margin: 0;
     padding: 0;
@@ -344,6 +348,7 @@ section:target p {
  * If you are thinking of using this in
  * production code, beware of the browser
  * prefixes.
+ * hamburger tabs
  */
 
 
@@ -352,7 +357,7 @@ section:target p {
  {
    display: block;
    position: relative;
-   top: 20px;
+   top: 40px;
    left: 20px;
    
    z-index: 1;
