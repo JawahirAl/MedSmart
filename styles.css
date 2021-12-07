@@ -785,8 +785,9 @@ section:target p {
 }
 
 .carousel-caption h3 {
-  font-size: 30px;
-  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+  color: #9e9dff;
 
 }
 
@@ -817,4 +818,5 @@ body,
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+
 }
