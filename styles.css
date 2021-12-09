@@ -146,7 +146,7 @@ h1 {
   height: 70vh;
 }
 
-.item {
+.item-s {
   flex: 1;
   height: 100%;
   background-position: center;
@@ -155,7 +155,7 @@ h1 {
   transition: flex 0.8s ease;
 }
 
-.item:hover {
+.item-s :hover {
   flex: 7;
 }
 
