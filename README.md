@@ -1,5 +1,5 @@
 # <h1>MedSmart</h1>
-<h3> A Medical billing company located in Jackson Tn</h3>
+<h3> A Medical billing company located in Jackson TN</h3>
 <h5>Madison Academic</h5>
 <h7>Lea Lam & Jawahir Alhaddad</h7>
 
